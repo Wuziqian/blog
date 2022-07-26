@@ -3,5 +3,6 @@
 本人数学巨佬，吊打付云皓、韦东奕和国家集训队教练。
 ## 获奖经历
 1.一年级CMO金牌
+[]{https://github.com/Wuziqian/WuZiqian/blob/gh-pages/15F6F6D2-1CFC-495E-8961-15227440E8E6.jpeg}
 
 2.十届IMO满分金牌
