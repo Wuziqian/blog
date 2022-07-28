@@ -8,3 +8,4 @@
 2.十届IMO满分金牌
 
 ## [个人动态](https://wuziqian.github.io/WuZiqian/%E5%8A%A8%E6%80%81)
+最近更新于**2022.7.28**。
