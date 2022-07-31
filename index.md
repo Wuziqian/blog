@@ -10,3 +10,6 @@
 
 ## [个人动态](https://wuziqian.github.io/blog/%E5%8A%A8%E6%80%81)
 最近更新于**2022.7.28**。
+
+## 友情链接
+[挑战巨佬的名字](https://wuziqian.github.io/namerena/)
