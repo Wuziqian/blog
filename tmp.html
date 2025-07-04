@@ -7,14 +7,23 @@
   <style>
     body { font-family: "Helvetica Neue", Arial, sans-serif; line-height:1.6; color:#333; margin:0; padding:0; }
     header { background:#c40000; color:#fff; padding:20px 0; text-align:center; }
+    header h1 img { vertical-align: middle; height:50px; }
     nav { background:#f5f5f5; padding:10px; text-align:center; }
     nav a { margin:0 15px; color:#333; text-decoration:none; font-weight:bold; }
     .hero { 
-      background: url('https://www.ccps.gov.cn/xygk/xyjj/images/P020181229608134479168.jpg') center/cover no-repeat; 
+      background: url('https://cdn.pixabay.com/photo/2016/11/14/15/17/campus-1822795_1280.jpg') center/cover no-repeat; 
       height:350px; 
       position:relative; 
     }
-    .hero h1 { position:absolute; bottom:30px; left:50%; transform:translateX(-50%); color:#fff; font-size:2.5em; text-shadow:1px 1px 5px rgba(0,0,0,0.7); }
+    .hero h1 { 
+      position:absolute; 
+      bottom:30px; 
+      left:50%; 
+      transform:translateX(-50%); 
+      color:#000;            /* “强基计划”行改为黑色 */
+      font-size:2.5em; 
+      text-shadow:1px 1px 5px rgba(255,255,255,0.7);
+    }
     .container { width:90%; max-width:1100px; margin:40px auto; }
     h2 { color:#c40000; margin-top:40px; }
     .grid { display:flex; flex-wrap:wrap; gap:20px; }
@@ -33,7 +42,12 @@
 <body>
 
 <header>
-  <h1>中央党校强基计划招生</h1>
+  <h1>
+    <!-- 用官方 Logo 替换“中央党校”文字 -->
+    <img src="https://www.ccps.gov.cn/images/H_xzxy3_13.png" 
+         alt="中央党校 Logo">
+    强基计划招生
+  </h1>
   <p>培育国家栋梁，铸就伟大复兴新征程</p>
 </header>
 
@@ -166,13 +180,14 @@
     </ol>
   </section>
 
+
   <section id="contact">
     <h2>联系我们</h2>
     <p>地址：北京市昌平区中央党校路1号</p>
-    <p>电话：010-88881234、010-88885678</p>
-    <p>邮箱：admission@ccps.edu.cn</p>
-    <p>官方网站：www.ccps.edu.cn</p>
-    <p>官方微信：ccps_admission</p>
+    <p>电话：<a href="tel:010-88881234">010-88881234</a>、<a href="tel:010-88885678">010-88885678</a></p>
+    <p>邮箱：<a href="mailto:admission@ccps.edu.cn">admission@ccps.edu.cn</a></p>
+    <p>官方网站：<a href="http://www.ccps.edu.cn" target="_blank">www.ccps.edu.cn</a></p>
+    <p>官方微信：<a href="https://weixin.qq.com/r/ccps_admission" target="_blank">ccps_admission</a></p>
   </section>
 
 </div>
